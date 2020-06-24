@@ -90,10 +90,11 @@ Mandatory for one-click checkout.
 | 40 
 | "Track" of information on a credit card that usually contains credit card number and expiration date.
 
-5+|<<{listname}_request_cardEMV, card-emv>>
+// emv, pin, and raw DISABLED FOR doc.payments
+// 5+|<<{listname}_request_cardEMV, card-emv>>
 
-5+|<<{listname}_request_cardPIN, card-pin>>
+// 5+|<<{listname}_request_cardPIN, card-pin>>
 
-5+|<<{listname}_request_cardRAW, card-raw>>
+// 5+|<<{listname}_request_cardRAW, card-raw>>
 
 //-

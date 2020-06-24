@@ -91,17 +91,18 @@ Please refer to our <<Appendix_Xml, XSD>> for the structural relationship betwee
 | <<CC_Fields_xmlelements_request_card, X>>
 |  
 
-| card-emv
-| <<CC_Fields_xmlelements_request_cardEMV, X>>
-| <<CC_Fields_xmlelements_response_cardEMV, X>>
+// emv, pin, raw disabled for doc.payments
+// | card-emv
+// | <<CC_Fields_xmlelements_request_cardEMV, X>>
+// | <<CC_Fields_xmlelements_response_cardEMV, X>>
 
-| card-pin
-| <<CC_Fields_xmlelements_request_cardPIN, X>>
-| 
+// | card-pin
+// | <<CC_Fields_xmlelements_request_cardPIN, X>>
+// | 
 
-| card-raw
-| <<CC_Fields_xmlelements_request_cardRAW, X>>
-| 
+// | card-raw
+// | <<CC_Fields_xmlelements_request_cardRAW, X>>
+// | 
 
 | card-token
 | <<CC_Fields_xmlelements_request_cardtoken, X>>
@@ -330,58 +331,59 @@ include::{root}/include/fields/rest_cc/request/req-card.adoc[]
 
 :!listname:
 
-[#CC_Fields_xmlelements_request_cardEMV]
-.``card-emv.``
+// DISABLED emv, pin, war for doc.payments
+// [#CC_Fields_xmlelements_request_cardEMV]
+// .``card-emv.``
 
-:listname: CC_Fields_xmlelements
+// :listname: CC_Fields_xmlelements
 
-include::{root}/include/field-list-headers/rest_cc/request/req-card-emv.adoc[]
+// include::{root}/include/field-list-headers/rest_cc/request/req-card-emv.adoc[]
 
-[cols="30m,6,9,7,48a"]
-|===
-| Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
+// [cols="30m,6,9,7,48a"]
+// |===
+// | Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
 
-include::{root}/include/fields/rest_cc/request/req-card-emv.adoc[]
+// include::{root}/include/fields/rest_cc/request/req-card-emv.adoc[]
 
-|===
+// |===
 
-//-
+// //-
 
-:!listname:
+// :!listname:
 
-[#CC_Fields_xmlelements_request_cardPIN]
-.``card-pin.``
+// [#CC_Fields_xmlelements_request_cardPIN]
+// .``card-pin.``
 
-:listname: CC_Fields_xmlelements
+// :listname: CC_Fields_xmlelements
 
-include::{root}/include/field-list-headers/rest_cc/request/req-card-pin.adoc[]
+// include::{root}/include/field-list-headers/rest_cc/request/req-card-pin.adoc[]
 
-[cols="30m,6,9,7,48a"]
-|===
-| Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
+// [cols="30m,6,9,7,48a"]
+// |===
+// | Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
 
-include::{root}/include/fields/rest_cc/request/req-card-pin.adoc[]
+// include::{root}/include/fields/rest_cc/request/req-card-pin.adoc[]
 
-|===
+// |===
 
-:!listname:
+// :!listname:
 
-[#CC_Fields_xmlelements_request_cardRAW]
-.``card-raw.``
+// [#CC_Fields_xmlelements_request_cardRAW]
+// .``card-raw.``
 
-:listname: CC_Fields_xmlelements
+// :listname: CC_Fields_xmlelements
 
-include::{root}/include/field-list-headers/rest_cc/request/req-card-raw.adoc[]
+// include::{root}/include/field-list-headers/rest_cc/request/req-card-raw.adoc[]
 
-[cols="30m,6,9,7,48a"]
-|===
-| Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
+// [cols="30m,6,9,7,48a"]
+// |===
+// | Field | <<APIRef_FieldDefs_Cardinality, M/O>> | <<APIRef_FieldDefs_DataTypes, Data Type>> | Size | Description
 
-include::{root}/include/fields/rest_cc/request/req-card-raw.adoc[]
+// include::{root}/include/fields/rest_cc/request/req-card-raw.adoc[]
 
-|===
+// |===
 
-:!listname:
+// :!listname:
 
 [#CC_Fields_xmlelements_request_cardtoken]
 .``card-token.``
@@ -776,23 +778,23 @@ include::{root}/include/fields/rest_cc/response/res-custom-field.adoc[]
 
 //-
 
+// EMV disabled for doc.payments
+// [#CC_Fields_xmlelements_response_cardEMV]
+// .``card-emv.``
 
-[#CC_Fields_xmlelements_response_cardEMV]
-.``card-emv.``
+// :listname: CC_Fields_xmlelements
 
-:listname: CC_Fields_xmlelements
+// include::{root}/include/field-list-headers/rest_cc/response/res-card-emv.adoc[]
 
-include::{root}/include/field-list-headers/rest_cc/response/res-card-emv.adoc[]
+// :!listname:
 
-:!listname:
+// [cols="30m,9,7,48a"]
+// |===
+// |Field | <<APIRef_FieldDefs_DataTypes, Data Type>> |Size |Description
 
-[cols="30m,9,7,48a"]
-|===
-|Field | <<APIRef_FieldDefs_DataTypes, Data Type>> |Size |Description
+// include::{root}/include/fields/rest_cc/response/res-card-emv.adoc[]
 
-include::{root}/include/fields/rest_cc/response/res-card-emv.adoc[]
-
-|===
+// |===
 
 //-
 
